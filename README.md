@@ -9,7 +9,10 @@ Repositório para estudo de algoritmos e estruturas de dados.
 ## Algoritmos
 <details>
   <summary markdown="span">Bubble Sort</summary><br>
-    Compara elementos adjacentes (dois a dois), por exemplo: compara-se a primeira posição do vetor com a segunda, na segunda iteração (repetição), compara-se a segunda posição do vetor com a terceira, e assim sucessivamente.
+  <img alt="Static Badge" src="https://img.shields.io/badge/Lento-darkred">
+    - Compara elementos adjacentes (dois a dois)
+    - Ordenação crescente e decrescente
+    - Lento
     
 </details>
 
