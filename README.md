@@ -13,11 +13,13 @@ Algoritmos explorados:
 Estruturas exploradas:
 <details>
   <summary markdown="span">Estáticas</summary>
+  
   - Array
 </details>
 
 <details>
   <summary markdown="span">Dinâmicas</summary>
+  
   - ArrayList
   - LinkedList
   - Tree
