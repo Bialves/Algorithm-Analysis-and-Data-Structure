@@ -3,14 +3,20 @@ Repositório para estudo de algoritmos e estruturas de dados.
 <br>
 
 ## Algoritmos
-Algoritmos explorados:
-- Bubble Sort
-- Merge Sort
-- Quick Sort
+<details>
+  <summary markdown="span">Bubble Sort</summary>
+</details>
+
+<details>
+  <summary markdown="span">Merge Sort</summary>
+</details>
+
+<details>
+  <summary markdown="span">Quick Sort</summary>
+</details>
 <br>
 
 ## Estrutura de Dados
-Estruturas exploradas:
 <details>
   <summary markdown="span">Estáticas</summary>
   
