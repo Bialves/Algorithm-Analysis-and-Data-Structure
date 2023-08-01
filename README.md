@@ -1,6 +1,8 @@
 # Algorithm-Analysis
-<img alt="Static Badge" src="https://img.shields.io/badge/LICEN%C3%87A-MIT-black">
-<img alt="Static Badge" src="https://img.shields.io/badge/Java-red">
+<div>
+  <img alt="Static Badge" src="https://img.shields.io/badge/LICEN%C3%87A-MIT-black">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Java-red">
+</div>
 Repositório para estudo de algoritmos e estruturas de dados.
 <br>
 
