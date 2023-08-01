@@ -9,12 +9,14 @@ Repositório para estudo de algoritmos e estruturas de dados.
 ## Algoritmos
 <details>
   <summary markdown="span">Bubble Sort</summary><br>
-  <div>
+  <p>
     <img alt="Static Badge" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O%20-%20n%C2%B2-8A2BE2">
     <img alt="Static Badge" src="https://img.shields.io/badge/Lento-darkred">
-  </div>
-        - Compara elementos adjacentes (dois a dois)
-        - Ordenação crescente e decrescente
+  </p>
+  
+  - Compara elementos adjacentes (dois a dois)
+  - Ordenação crescente e decrescente
+        
 </details>
 
 <details>
