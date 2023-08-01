@@ -18,7 +18,8 @@ Repositório para estudo de algoritmos e estruturas de dados.
   - Ordenação crescente e decrescente
 
   Exemplo:
-  vetor[2,1,3,5,4]<br>
+  
+  vetor[2,1,3,5,4]
   
   1º iteração:
   **2 > 1 ?** Sim, os mesmos são invertidos, vetor[1,2,3,5,4]
