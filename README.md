@@ -34,8 +34,6 @@ Repositório para estudo de algoritmos e estruturas de dados.
   - LinkedList
   - Tree
 </details>
+<br>
 
-<p align="right">
-  
-  Autora: [Bianca Alves](https://github.com/Bialves)
-</p>
+Autora: [Bianca Alves](https://github.com/Bialves) 
