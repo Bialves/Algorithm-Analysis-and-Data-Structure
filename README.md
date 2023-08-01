@@ -16,6 +16,22 @@ Repositório para estudo de algoritmos e estruturas de dados.
   
   - Compara elementos adjacentes (dois a dois)
   - Ordenação crescente e decrescente
+
+  Exemplo:
+        vetor[2,1,3,5,4]<br>
+        
+        1º iteração:
+        2 > 1 ?
+        Sim, os mesmos são invertidos, vetor[1,2,3,5,4].
+
+        2 > 3 ?
+        Não, estado do vetor é mantido e o próximo elemento se torna o comparador.
+
+        3 > 5 ?
+        Não, estado do vetor é mantido e o próximo elemento se torna o comparador.
+
+        5 > 4 ?
+        Sim, os mesmos são invertidos, vetor[1,2,3,4,5].
         
 </details>
 
