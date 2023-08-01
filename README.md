@@ -20,21 +20,22 @@ Repositório para estudo de algoritmos e estruturas de dados.
   Exemplo:
   vetor[2,1,3,5,4]
   
-  1º iteração:
+  `1º iteração:`
   
   **2 > 1 ?** Sim, os mesmos são invertidos, vetor[1,2,3,5,4]
 
-  2º iteração:
+  `2º iteração:`
   
   **2 > 3 ?** Não, estado do vetor é mantido e o próximo elemento se torna o comparador
 
-  3º iteração:
+  `3º iteração:`
   
   **3 > 5 ?** Não, estado do vetor é mantido e o próximo elemento se torna o comparador
 
-  4º iteração:
+  `4º iteração:`
   
   **5 > 4 ?** Sim, os mesmos são invertidos, vetor[1,2,3,4,5]
+  <br>
 
   Como não há mais elementos para realizar comparação, é compreendido que o vetor se encontra completamente ordenado.
         
