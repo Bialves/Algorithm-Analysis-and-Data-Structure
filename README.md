@@ -14,11 +14,11 @@ Repositório para estudo de algoritmos e estruturas de dados.
 </details>
 
 <details>
-  <summary markdown="span">Merge Sort</summary>
+  <summary markdown="span">Merge Sort</summary><br>
 </details>
 
 <details>
-  <summary markdown="span">Quick Sort</summary>
+  <summary markdown="span">Quick Sort</summary><br>
 </details>
 <br>
 
@@ -26,22 +26,22 @@ Repositório para estudo de algoritmos e estruturas de dados.
 <details>
   <summary markdown="span">Estáticas</summary>
   <details>
-    <summary markdown="span">Array</summary>
+    <summary markdown="span">Array</summary><br>
   </details>
 </details>
 
 <details>
   <summary markdown="span">Dinâmicas</summary>
   <details>
-    <summary markdown="span">ArrayList</summary>
+    <summary markdown="span">ArrayList</summary><br>
   </details>
   
   <details>
-    <summary markdown="span">LinkedList</summary>
+    <summary markdown="span">LinkedList</summary><br>
   </details>
 
  <details>
-   <summary markdown="span">Tree</summary>
+   <summary markdown="span">Tree</summary><br>
   </details>
 </details>
 <br>
