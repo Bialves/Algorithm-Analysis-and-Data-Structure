@@ -23,28 +23,24 @@ Repositório para estudo de algoritmos e estruturas de dados.
 ## Estrutura de Dados
 <details>
   <summary markdown="span">Estáticas</summary>
-  
   <details>
-        <summary markdown="span">Array</summary>
+    <summary markdown="span">Array</summary>
   </details>
-  
 </details>
 
 <details>
-  
   <summary markdown="span">Dinâmicas</summary>
   <details>
-        <summary markdown="span">ArrayList</summary>
+    <summary markdown="span">ArrayList</summary>
   </details>
   
   <details>
-        <summary markdown="span">LinkedList</summary>
+    <summary markdown="span">LinkedList</summary>
   </details>
 
  <details>
-        <summary markdown="span">Tree</summary>
+   <summary markdown="span">Tree</summary>
   </details>
-  
 </details>
 <br>
 
