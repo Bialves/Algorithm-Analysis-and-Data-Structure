@@ -36,8 +36,6 @@ Repositório para estudo de algoritmos e estruturas de dados.
 </details>
 
 <p align="right">
-  Autora: [Bianca Alves][perfil]
+  
+  Autora: [Bianca Alves](https://github.com/Bialves)
 </p>
-
-<!-- Links -->
-[perfil]: https://github.com/Bialves
