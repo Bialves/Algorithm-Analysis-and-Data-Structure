@@ -78,15 +78,11 @@ Características
 
     Em nosso exemplo, 8 é maior que a referência mid, então a referência low é atualizada. Consequentemente, como delimitamos a área de busca com essa ação, a referência de mid também é atualizada.
 
-    > **Atualizações**
-    >
-    > Nova estrutura arr[] = {7,8,32}
-    >
-    > low = elemento 7
-    >
-    > high = elemento 32
-    >
-    > mid = (0 + 2) / 2 = 1 -> elemento 8
+    > <p>**Atualizações**<br>
+    > Nova estrutura arr[] = {7,8,32}<br>
+    > low = elemento 7<br>
+    > high = elemento 32<br>
+    > mid = (0 + 2) / 2 = 1 -> elemento 8</p>
     
   - 2º iteração:
 
