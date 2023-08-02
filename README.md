@@ -146,6 +146,20 @@ O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de def
   
   [10,80,30,90,40,50,70]
 
+  pivô = 7 \ 2 = 3... lembrando que há posição 0, o elemento de valor 90 é o 3º elemento da matriz.
+
+  - 1º iteração: alocamos todos os elementos de valor menor que o do nosso pivô a esquerda e os maiores a direita.
+
+    `[10,80,30,40,50,70]`   [90] <- pivô
+    
+  - 2º iteração: 
+
+    `[12,31]`   `[25,8]`   `[32,17]`   `[40,42]`
+
+  - 3º iteração: 
+
+    `[12]`   `[31]`   `[25]`   `[8]`   `[32]`   `[17]`   `[40]`   `[42]`
+
  ___
 
 <p align="center">
