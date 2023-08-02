@@ -87,7 +87,7 @@ Características:
   
   - 4º iteração:
     
-  $\textcolor{red}{\texts{[12] [31]}}$   {25}   {8}   {32}   {17}   {40}   {42}
+  $\textcolor{red}{[12] [31]}$   {25}   {8}   {32}   {17}   {40}   {42}
     
   ___
 
