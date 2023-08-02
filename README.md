@@ -218,6 +218,12 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
     <p align="right">
       [80] <- direita
     </p>
+<br>
+<br>
+
+Agora que não é mais possível realizar partições, se for agrupado novamente os elementos conforme a ordem que os organizamos após as iterações, obteremos:
+
+`[10,30,40,50,70,80,90]`
 
  ___
 
