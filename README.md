@@ -55,7 +55,7 @@ Características:
   <p>
     <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2" >
     <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Dif%C3%ADcil-darkred" >
-    <img alt="Rápido" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen" >
+    <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
   </p>
   
 > **Note**
