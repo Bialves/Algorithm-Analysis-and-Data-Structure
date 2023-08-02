@@ -162,6 +162,8 @@ O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de def
 Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até não ser mais possível particionar.
 
   - 2º iteração:
+
+    `[10,80,30,40,50,70]`
     
     <p align="center">
       pivô submatriz esq.<br>
@@ -173,11 +175,36 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
       esquerda -> [10,30]
     </p>
     <p align="right">
-      [50,70] <- direita
+      [80,50,70] <- direita
     </p>
   </div>
     
-  - 3º iteração: 
+  - 3º iteração:
+    
+    `[80,50,70]`
+
+    <p align="center">
+      pivô submatriz dir.<br>
+      [50]
+    </p>
+
+    <p align="right">
+      [80,70] <- direita
+    </p>
+
+  - 4º iteração:
+    
+    `[80,70]`<br>
+    Como a matriz possui apenas 2 elementos, qualquer um dos dois pode ser pivô.
+
+    <p align="center">
+      pivô submatriz dir.<br>
+      [70]
+    </p>
+
+    <p align="right">
+      [80] <- direita
+    </p>
 
  ___
 
