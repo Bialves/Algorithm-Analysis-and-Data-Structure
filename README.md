@@ -16,7 +16,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
   </p>
 
 > **Note**
-> O objetivo do algoritmo é sempre encontrar o maior elemento, no par usado para comparação, e o mover para direita no vetor. E após isso, fazer o mesmo com o segundo maior elemento, depois com o terceiro... continuamente, até ordenar todos elementos (ordem crescente).
+> O algoritmo funciona sempre buscando o maior elemento, em um par usado para comparação, para o mover para direita. E após isso, fazer o mesmo com o segundo maior elemento, depois com o terceiro... continuamente, até ordenar todos elementos (ordem crescente).
 
 Características:
   - Compara elementos adjacentes (dois a dois)
@@ -69,24 +69,24 @@ Características:
 
   Exemplo:
   
-  vetor[] = {12,31,25,8,32,17,40,42}
+  [12,31,25,8,32,17,40,42]
   
 #### Etapa de Divisão
-  - 1º iteração: primeiro divida o vetor dado em duas metades, conforme **mid = número de elementos / 2**, ou seja, mid = 8 / 2 = 4.
+  - 1º iteração: primeiro divida a matriz dada em duas metades, conforme **mid = número de elementos / 2**, ou seja, mid = 8 / 2 = 4.
     
     `[12,31,25,8]`   `[32,17,40,42]`
     
-  - 2º iteração: novamente divida esses dois vetores em metades. Como eles são de tamanho 4, então divida-os em novos vetores de tamanho 2.
+  - 2º iteração: novamente divida essas duas matrizes em metades. Como eles são de tamanho 4, então divida-os em novas matrizes de tamanho 2.
 
     `[12,31]`   `[25,8]`   `[32,17]`   `[40,42]`
 
-  - 3º iteração: agora, novamente divida esses vetores para obter o valor atômico que não pode ser mais dividido.
+  - 3º iteração: agora, novamente divida essas matrizes para obter o valor atômico que não pode ser mais dividido.
 
     `[12]`   `[31]`   `[25]`   `[8]`   `[32]`   `[17]`   `[40]`   `[42]`
     <br><br>
 
 #### Etapa de Merge
-Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
+Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeiro compare o elemento de cada matriz e, em seguida, combine-os em outra matriz em ordem classificada.
   
   - 4º iteração:
 
@@ -104,7 +104,7 @@ Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeir
 
     [12,31]   [8,25]   [17,32]   `[40,42]`
 
-    Agora compare vetores com dois valores de dados e mescle-os em uma matriz de valores encontrados em ordem classificada.
+    Agora compare as matrizes com dois valores de dados e mescle-os em uma matriz de valores encontrados em ordem classificada.
 
   - 8º iteração:
 
@@ -124,6 +124,30 @@ Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeir
 
 <details>
   <summary markdown="span">Quick Sort</summary><br>
+  <p>
+    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2" >
+    <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Dif%C3%ADcil-darkred" >
+    <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
+  </p>
+
+> **Note**
+> Classificação baseada no algoritmo **Dividir e Conquistar** que escolhe um elemento como um pivô e particiona a matriz dada em torno do pivô escolhido, colocando o pivô em sua posição correta na matriz classificada.
+
+Características:
+  - Ordenação crescente e decrescente
+  - Algoritmo instável (pior caso O(n²))
+  - Algoritmo recursivo
+
+  Exemplo:
+  
+  [10,80,30,90,40,50,70]
+
+ ___
+
+<p align="center">
+  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/a25b71f0-f93a-4045-b9bd-7b60dc5c77b9" width="380" height="210">
+</p>
+  
 </details>
 
 <details>
