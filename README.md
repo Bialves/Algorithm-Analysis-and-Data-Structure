@@ -25,7 +25,7 @@ Características
 **Exemplo:**
 
 ```java
-        public void pesquisarNumero(int x) {
+         public void pesquisarNumero(int x) {
             for(i = 0; i < arr.length; i++) {
               // Verifica se o elemento que está sendo procurado está no array.
               if (numeros[i] == x) {
