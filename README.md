@@ -166,7 +166,7 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
     `[10,80,30,40,50,70]`
     
     <p align="center">
-      pivô submatriz esq.<br>
+      pivô<br>
       [40]
     </p>
 
@@ -184,7 +184,7 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
     `[80,50,70]`
 
     <p align="center">
-      pivô submatriz dir.<br>
+      pivô<br>
       [50]
     </p>
 
@@ -198,7 +198,7 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
     Como a matriz possui apenas 2 elementos, qualquer um dos dois pode ser pivô.
 
     <p align="center">
-      pivô submatriz dir.<br>
+      pivô<br>
       [70]
     </p>
 
