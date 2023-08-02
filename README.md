@@ -62,20 +62,40 @@ Características
 
 **Exemplo:**
 
-  arr[] = {0,4,6,7,32,8}<br>
-  elemento da busca: 32<br>
-  mid = (0 + 6) / 2 = 3
+  arr[] = {0,4,6,7,8,32}<br>
+  elemento da busca: 8<br>
+  mid = (0 + 5) / 2 = 2
 
   - 1º iteração:
 
-    low -> elemento 0
-    high -> elemento 8
-    mid = -> elemento 7
+    low -> elemento 0<br>
+    high -> elemento 32<br>
+    mid = -> elemento 6
+
+    `8 < mid`? Se sim, high atualiza para (mid - 1).
+    `8 > mid`? Se sim, low atualiza para (mid + 1).
+
+
+    Em nosso exemplo, 8 é maior que a referência mid, então a referência low é atualizada. Consequentemente, como delimitamos a área de busca com essa ação, a referência de mid também é atualizada.
+
+    > **Atualizações**
+    >
+    > Nova estrutura arr[] = {7,8,32}
+    >
+    > low = elemento 7
+    >
+    > high = elemento 32
+    >
+    > mid = (0 + 2) / 2 = 1 -> elemento 8
+    
+  - 2º iteração:
+
+    low -> elemento 32<br>
+    high -> elemento 8<br>
+    mid = 
 
     `32 < mid`? Se sim, high atualiza para (mid - 1).
     `32 > mid`? Se sim, low atualiza para (mid + 1).
-    
-  - 2º iteração:
 
     
   - 3º iteração:
