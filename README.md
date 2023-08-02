@@ -6,23 +6,27 @@
 Repositório para estudo de algoritmos e estruturas de dados.
 <br>
 
-## Algoritmos
+## Algoritmos de Classificação
 <details>
   <summary markdown="span">Bubble Sort</summary><br>
   <p>
     <img alt="Static Badge" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O%20-%20n%C2%B2-8A2BE2">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-F%C3%A1cil-darkgreen">
     <img alt="Static Badge" src="https://img.shields.io/badge/Lento-darkred">
   </p>
+
+   > O objetivo do algoritmo é sempre encontrar o maior elemento, no par usado para comparação, e o mover para direita na vetor. E após isso, fazer o mesmo com o segundo maior elemento, depois com o terceiro... continuamente, até ordenar todos elementos (ordem crescente).
   
   - Compara elementos adjacentes (dois a dois)
   - Ordenação crescente e decrescente
+  - Algoritmo estável
 
   Exemplo:
-  vetor[2,1,3,5,4]
+  vetor[] = {2,1,3,5,4}
   
   `1º iteração:`
   
-  **2 > 1 ?** Sim, os mesmos são invertidos, vetor[1,2,3,5,4]
+  **2 > 1 ?** Sim, os mesmos são invertidos, vetor[] = {1,2,3,5,4}
 
   `2º iteração:`
   
@@ -34,7 +38,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
 
   `4º iteração:`
   
-  **5 > 4 ?** Sim, os mesmos são invertidos, vetor[1,2,3,4,5]
+  **5 > 4 ?** Sim, os mesmos são invertidos, vetor[] = {1,2,3,4,5}
   <br>
 
   Como não há mais elementos para realizar comparação, é compreendido que o vetor se encontra completamente ordenado.
