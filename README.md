@@ -15,6 +15,24 @@ Repositório para estudo de algoritmos e estruturas de dados.
     <img alt="Lento" src="https://img.shields.io/badge/Lento-darkred">
   </p>
 
+> **Note**
+> Método de busca tradicional, o qual percorre toda uma matriz, visitando cada um de seus n elementos.
+
+**Exemplo:**
+
+```java
+        public void pesquisarNumero(int x) {
+            for(i = 0; i < arr.length; i++) {
+              // Verifica se o elemento que está sendo procurado está no array.
+              if (numeros[i] == x) {
+                // Se encontrou o elemento, imprime ele na tela e para a pesquisa.
+                System.out.println("Encontrou o número " + x);
+                break;
+              }
+            }
+          }
+```
+
 </details>
   
 <details>
