@@ -9,11 +9,11 @@ Repositório para estudo de algoritmos e estruturas de dados.
 ## Algoritmos
 ### Pesquisa
 <details>
-  <summary markdown="span">ArrayList</summary><br>
+  <summary markdown="span">Sequencial</summary><br>
 </details>
   
 <details>
-  <summary markdown="span">LinkedList</summary><br>
+  <summary markdown="span">Binária</summary><br>
 </details>
 <br>
 
