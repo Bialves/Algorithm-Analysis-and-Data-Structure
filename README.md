@@ -22,25 +22,26 @@ Características:
   - Compara elementos adjacentes (dois a dois)
   - Não recomendado para manipulação de um grande volume de dados
   - Algoritmo estável
+  - Não requer nenhum espaço de memória adicional
 
 **Exemplo:**
   
-  vetor[] = {2,1,3,5,4}
+  arr[] = {2,1,3,5,4}
   
   - 1º iteração:
-    `2 > 1 ?` Sim, os mesmos são invertidos, vetor[] = {1,2,3,5,4}
+    `2 > 1 ?` Sim, os mesmos são invertidos, arr[] = {1,2,3,5,4}
 
   - 2º iteração:
-    `2 > 3 ?` Não, estado do vetor é mantido e o próximo elemento se torna o comparador
+    `2 > 3 ?` Não, estado do array é mantido e o próximo elemento se torna o comparador
 
   - 3º iteração:
-    `3 > 5 ?` Não, estado do vetor é mantido e o próximo elemento se torna o comparador
+    `3 > 5 ?` Não, estado do array é mantido e o próximo elemento se torna o comparador
 
   - 4º iteração:
-    `5 > 4 ?` Sim, os mesmos são invertidos, vetor[] = {1,2,3,4,5}
+    `5 > 4 ?` Sim, os mesmos são invertidos, arr[] = {1,2,3,4,5}
   <br>
 
-  Como não há mais elementos para realizar comparação, é compreendido que o vetor se encontra completamente ordenado.
+  Como não há mais elementos para realizar comparação, é compreendido que o array se encontra completamente ordenado.
 
   ___
 
@@ -65,6 +66,7 @@ Características:
   - Desempenho garantido no pior caso (limite superior igual ao limite inferior)
   - Algoritmo estável
   - Algoritmo recursivo
+  - Gasto extra de memória
 
 **Exemplo:**
   
@@ -239,14 +241,79 @@ Agora que não é mais possível realizar partições, se for agrupado novamente
   </p>
 
 > **Note**
-> 
+> Funciona de forma semelhante à maneira como você classifica as cartas de baralho em suas mãos. O array é virtualmente dividido em uma parte classificada e uma não classificada. Os valores da peça não classificada são selecionados e colocados na posição correta na parte classificada.
 
 Características:
-  - Compara elementos adjacentes (dois a dois)
+  - In-place: Apenas requer uma quantidade constante de O(1) espaço de memória adicional
   - Algoritmo estável
+  - Muitas trocas, e menos comparações
 
 **Exemplo:**
+
+  arr[] = {12, 11, 13, 5, 6}
+
+  - 1º iteração: inicialmente, os dois primeiros elementos da matriz são comparados na classificação de inserção.
+
+    {`12,11`,13,5,6}
+
+    `12 < 11 || 11 < 12 ?` Os mesmos são invertidos, arr[] = {11,12,13,5,6}
+
+  - 2º iteração: agora, passe para os próximos dois elementos e compare-os
+
+    {11,`12,13`,5,6}
+
+    `12 < 13 || 13 < 12 ?` Estado do array é mantido e o próximo elemento se torna o comparador
+
+  - 3º iteração:
+
+    {11,12,`13,5`,6}
+
+    `13 < 5 || 5 < 13 ?` Os mesmos são invertidos, arr[] = {11,12,5,13,6}
   
+    Após a troca, os elementos 12 e 5 não são classificados, portanto, trocam novamente.
+    
+    {11,`12,5`,13,6}
+    
+    arr[] = {11,5,12,13,6}
+    
+    Aqui, novamente 11 e 5 não são classificados, portanto, troque novamente.
+    
+    {`11,5`,12,13,6}
+
+    arr[] = {5,11,12,13,6}
+
+    Aqui, novamente 11 e 5 não são classificados, portanto, troque novamente.
+    
+    {`11,5`,12,13,6}
+
+    arr[] = {5,11,12,13,6}
+
+  - 4º iteração:
+     
+    {11,5,12,`13,6`}
+
+    `13 < 6 || 6 < 13 ?` Os mesmos são invertidos, arr[] = {5,11,12,6,13}
+
+    Agora, 6 é menor que 12, portanto, troque novamente.
+
+    {5,11,`12,6`,13}
+
+    arr[] = {5,11,6,12,13}
+
+    Aqui, também a troca faz 11 e 6 não classificados, portanto, troque novamente.
+
+    {5,`11,6`,12,13}
+
+    arr[] = {5,6,11,12,13}
+
+    Finalmente a estrutura está ordenada.
+
+  ___
+
+  <p align="center">
+    <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/1e6cf6a8-9ef3-43a8-bf25-32a92a69bb7f" width="380" height="210">
+  </p>
+
 </details>
 <br>
 
