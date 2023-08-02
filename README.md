@@ -16,7 +16,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
   </p>
 
 > **Note**
-> O objetivo do algoritmo é sempre encontrar o maior elemento, no par usado para comparação, e o mover para direita na vetor. E após isso, fazer o mesmo com o segundo maior elemento, depois com o terceiro... continuamente, até ordenar todos elementos (ordem crescente).
+> O objetivo do algoritmo é sempre encontrar o maior elemento, no par usado para comparação, e o mover para direita no vetor. E após isso, fazer o mesmo com o segundo maior elemento, depois com o terceiro... continuamente, até ordenar todos elementos (ordem crescente).
 
 Características:
   - Compara elementos adjacentes (dois a dois)
@@ -52,6 +52,43 @@ Características:
 
 <details>
   <summary markdown="span">Merge Sort</summary><br>
+  <p>
+    <img alt="Static Badge" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Dif%C3%ADcil-darkred">
+    <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
+  </p>
+
+> **Note**
+> Funciona dividindo uma matriz em submatrizes menores, classificando cada submatriz e, em seguida, mesclando as submatrizes classificadas novamente para formar a matriz classificada final.
+
+Características:
+  - Desempenho garantido no pior caso (limite superior igual ao limite inferior)
+  - Ordenação crescente e decrescente
+  - Algoritmo estável
+  - Algoritmo recursivo
+
+  Exemplo:
+  
+  vetor[] = {12,31,25,8,32,17,40,42}
+  
+  - 1º iteração:
+    `2 > 1 ?` Sim, os mesmos são invertidos, vetor[] = {1,2,3,5,4}
+
+  - 2º iteração:
+    `2 > 3 ?` Não, estado do vetor é mantido e o próximo elemento se torna o comparador
+
+  - 3º iteração:
+    `3 > 5 ?` Não, estado do vetor é mantido e o próximo elemento se torna o comparador
+
+  - 4º iteração:
+    `5 > 4 ?` Sim, os mesmos são invertidos, vetor[] = {1,2,3,4,5}
+    
+  ___
+
+<p align="center">
+  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/cc9d3755-829f-4b4f-adc9-e71232155e2b" width="380" height="240">
+</p>
+        
 </details>
 
 <details>
