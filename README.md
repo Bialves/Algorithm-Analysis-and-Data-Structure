@@ -43,7 +43,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
   ___
 
 <p align="center">
-  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/b524809e-d237-463c-9932-953b770b0553" width="400" height="300">
+  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/b524809e-d237-463c-9932-953b770b0553" width="400" height="370">
 </p>
         
 </details>
