@@ -274,4 +274,14 @@ Características:
 </details>
 <br>
 
+## Buscas
+ <details>
+    <summary markdown="span">Sequencial</summary><br>
+  </details>
+
+ <details>
+   <summary markdown="span">Binária</summary><br>
+  </details>
+<br>
+
 > Autora: [Bianca Alves](https://github.com/Bialves) 
