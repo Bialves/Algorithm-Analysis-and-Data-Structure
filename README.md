@@ -166,9 +166,16 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
     <p align="center">
       pivô<br>
       [90]
-      
-      <p align="letf">
-       esquerda -> [10,80,30,40,50,70]
+    </p>
+
+    <p align="letf">
+      pivô<br>
+      [40]
+      <p align="left">
+        esquerda -> [10,30]
+      </p>
+      <p align="right">
+        esquerda -> [50,70]
       </p>
     </p>
     
