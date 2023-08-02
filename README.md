@@ -73,17 +73,21 @@ Características:
   
   - 1º iteração: primeiro divida o vetor dado em duas metades, conforme `mid = número de elementos / 2`, ou seja, mid = 8 / 2 = 4.
     
-    dividimos o vetor em 2 metades com 4 elementos: {12,31,25,8}   {32,17,40,42}
+    {12,31,25,8}   {32,17,40,42}
     
   - 2º iteração: novamente divida esses dois vetores em metades. Como eles são de tamanho 4, então divida-os em novos vetores de tamanho 2.
 
     {12,31}   {25,8}   {32,17}   {40,42}
 
-  - 3º iteração:
-    `3 > 5 ?` Não, estado do vetor é mantido e o próximo elemento se torna o comparador
+  - 3º iteração: agora, novamente divida esses vetores para obter o valor atômico que não pode ser mais dividido.
 
-  - 4º iteração:
-    `5 > 4 ?` Sim, os mesmos são invertidos, vetor[] = {1,2,3,4,5}
+    {12}   {31}   {25}   {8}   {32}   {17}   {40}   {42}
+
+  - 4º iteração: agora, combine-os da mesma maneira que foram quebrados.
+
+  Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
+
+  {12}   {31}   {25}   {8}   {32}   {17}   {40}   {42}
     
   ___
 
@@ -95,6 +99,10 @@ Características:
 
 <details>
   <summary markdown="span">Quick Sort</summary><br>
+</details>
+
+<details>
+  <summary markdown="span">Insertion Sort</summary><br>
 </details>
 <br>
 
