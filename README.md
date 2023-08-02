@@ -150,11 +150,16 @@ O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de def
 
   - 1º iteração: alocamos todos os elementos de valor menor que o do nosso pivô a esquerda e os maiores a direita.
 
-    `[10,80,30,40,50,70]`   [90] <- pivô
-    
-  - 2º iteração: 
+    <p align="center">
+      `[90] <- pivô`
+      `[10,80,30,40,50,70]`
+    </p>
 
-    `[12,31]`   `[25,8]`   `[32,17]`   `[40,42]`
+    Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até não ser mais possível particionar.
+
+  - 2º iteração:
+    
+    `[10,80,30,40,50,70]`   `[90] <- pivô`
 
   - 3º iteração: 
 
