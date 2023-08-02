@@ -20,7 +20,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
 
 Características:
   - Compara elementos adjacentes (dois a dois)
-  - Ordenação crescente e decrescente
+  - Não recomendado para manipulação de grande volume de dadosS
   - Algoritmo estável
 
 **Exemplo:**
@@ -63,7 +63,6 @@ Características:
 
 Características:
   - Desempenho garantido no pior caso (limite superior igual ao limite inferior)
-  - Ordenação crescente e decrescente
   - Algoritmo estável
   - Algoritmo recursivo
 
@@ -134,7 +133,6 @@ Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeir
 > Classificação baseada no algoritmo **Dividir e Conquistar** que escolhe um elemento como um pivô e particiona a matriz dada em torno do pivô escolhido, colocando o pivô em sua posição correta na matriz classificada.
 
 Características:
-  - Ordenação crescente e decrescente
   - Algoritmo instável (pior caso O(n²))
   - Algoritmo recursivo
   - Trabalha com referência (pivô)
@@ -234,6 +232,21 @@ Agora que não é mais possível realizar partições, se for agrupado novamente
 
 <details>
   <summary markdown="span">Insertion Sort</summary><br>
+  <p>
+    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O%20-%20n%C2%B2-8A2BE2">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-M%C3%A9dio-yellow">
+    <img alt="Lento" src="https://img.shields.io/badge/Lento-darkred">
+  </p>
+
+> **Note**
+> 
+
+Características:
+  - Compara elementos adjacentes (dois a dois)
+  - Algoritmo estável
+
+**Exemplo:**
+  
 </details>
 <br>
 
