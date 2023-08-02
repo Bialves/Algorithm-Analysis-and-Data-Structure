@@ -71,9 +71,10 @@ Características:
   
   vetor[] = {12,31,25,8,32,17,40,42}
   
-  - 1º iteração:
-    `2 > 1 ?` Sim, os mesmos são invertidos, vetor[] = {1,2,3,5,4}
-
+  - 1º iteração: primeiro divida a matriz dada em duas metades, dado `mid = número de elementos / 2`. mid = 8 / 2 = 4.
+    
+    dividimos a matriz em 2 metades com 4 elementos: {12,31,25,8}  {32,17,40,42}
+    
   - 2º iteração:
     `2 > 3 ?` Não, estado do vetor é mantido e o próximo elemento se torna o comparador
 
