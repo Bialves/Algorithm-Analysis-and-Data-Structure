@@ -151,7 +151,7 @@ O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de def
   - 1º iteração: alocamos todos os elementos de valor menor que o do nosso pivô a esquerda e os maiores a direita.
 
     <p align="center">
-      pivô
+      pivô<br>
       [90]
     </p>
 
