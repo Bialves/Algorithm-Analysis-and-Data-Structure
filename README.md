@@ -137,6 +137,7 @@ Características:
   - Ordenação crescente e decrescente
   - Algoritmo instável (pior caso O(n²))
   - Algoritmo recursivo
+  - Trabalha com referência (pivô)
 
 A primeira etapa do Quick Sort é a partição. A partição é feita recursivamente em cada lado do pivô depois que o pivô é colocado em sua posição correta e isso finalmente classifica a matriz.
 
@@ -221,9 +222,7 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
 <br>
 <br>
 
-Agora que não é mais possível realizar partições, se for agrupado novamente os elementos conforme a ordem que os organizamos após as iterações, obteremos:
-
-`[10,30,40,50,70,80,90]`
+Agora que não é mais possível realizar partições, se for agrupado novamente os elementos conforme a ordem que os organizamos após as iterações, obteremos: `[10,30,40,50,70,80,90]`
 
  ___
 
