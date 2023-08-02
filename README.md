@@ -19,8 +19,9 @@ Repositório para estudo de algoritmos e estruturas de dados.
 > Método de busca tradicional, o qual percorre toda uma matriz, visitando cada um de seus n elementos.
 
 Características
-- Lento
-- sla
+- Algoritmo simples
+- Menos otimizado
+- Não recomendado para manipulação de um grande volume de dados
 
 **Exemplo:**
 
@@ -47,6 +48,23 @@ Supondo a seguinte estrutura arr[] = {0,4,6,7,32,8} e quisessemos buscar o eleme
     <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2" >
     <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
   </p>
+
+> **Note**
+> Algoritmo de busca, aplicável apenas em **estruturas ordenadas**, que funciona delimitando os elementos a serem consultados na busca, por meio de critérios estabelecidos pelos 3 referenciais que o algoritmo utiliza (low, high, mid).
+> > low = posição 0
+> > high = arr.length - 1
+> > mid = (low + high) / 2
+
+Características
+- Algoritmo sofisticado
+- Otimizado
+- Mais eficiente
+
+**Exemplo:**
+
+  arr[] = {0,4,6,7,32,8}
+
+
 </details>
 <br>
 
