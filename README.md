@@ -159,15 +159,20 @@ O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de def
      esquerda -> [10,80,30,40,50,70]
     </p>
 
-    Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até não ser mais possível particionar.
+Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até não ser mais possível particionar.
 
   - 2º iteração:
     
-    `[10,80,30,40,50,70]`   `[90] <- pivô`
-
+    <p align="center">
+      pivô<br>
+      [90]
+      
+      <p align="letf">
+       esquerda -> [10,80,30,40,50,70]
+      </p>
+    </p>
+    
   - 3º iteração: 
-
-    `[12]`   `[31]`   `[25]`   `[8]`   `[32]`   `[17]`   `[40]`   `[42]`
 
  ___
 
