@@ -17,7 +17,8 @@ Repositório para estudo de algoritmos e estruturas de dados.
 
 > **Note**
 > O objetivo do algoritmo é sempre encontrar o maior elemento, no par usado para comparação, e o mover para direita na vetor. E após isso, fazer o mesmo com o segundo maior elemento, depois com o terceiro... continuamente, até ordenar todos elementos (ordem crescente).
-  
+
+Características:
   - Compara elementos adjacentes (dois a dois)
   - Ordenação crescente e decrescente
   - Algoritmo estável
