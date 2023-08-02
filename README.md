@@ -71,7 +71,7 @@ Características:
   
   vetor[] = {12,31,25,8,32,17,40,42}
   
-  - 1º iteração: primeiro divida o vetor dado em duas metades, conforme `mid = número de elementos / 2`, ou seja, mid = 8 / 2 = 4.
+  - 1º iteração: primeiro divida o vetor dado em duas metades, conforme **mid = número de elementos / 2**, ou seja, mid = 8 / 2 = 4.
     
     `[12,31,25,8]`   `[32,17,40,42]`
     
