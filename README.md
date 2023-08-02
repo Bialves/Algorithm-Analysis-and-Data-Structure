@@ -20,7 +20,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
 
 Características:
   - Compara elementos adjacentes (dois a dois)
-  - Não recomendado para manipulação de grande volume de dadosS
+  - Não recomendado para manipulação de um grande volume de dados
   - Algoritmo estável
 
 **Exemplo:**
