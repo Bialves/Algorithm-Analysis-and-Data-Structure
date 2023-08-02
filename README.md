@@ -6,7 +6,18 @@
 Repositório para estudo de algoritmos e estruturas de dados.
 <br>
 
-## Algoritmos de Classificação
+## Algoritmos
+### Pesquisa
+<details>
+  <summary markdown="span">ArrayList</summary><br>
+</details>
+  
+<details>
+  <summary markdown="span">LinkedList</summary><br>
+</details>
+<br>
+
+### Classificação
 <details>
   <summary markdown="span">Bubble Sort</summary><br>
   <p>
@@ -339,16 +350,6 @@ Características:
    <summary markdown="span">Tree</summary><br>
   </details>
 </details>
-<br>
-
-## Buscas
- <details>
-    <summary markdown="span">Sequencial</summary><br>
-  </details>
-
- <details>
-   <summary markdown="span">Binária</summary><br>
-  </details>
 <br>
 
 > Autora: [Bianca Alves](https://github.com/Bialves) 
