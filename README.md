@@ -178,8 +178,22 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
       [80,50,70] <- direita
     </p>
   </div>
-    
+
   - 3º iteração:
+    
+    `[10,30]`<br>
+    Como a matriz possui apenas 2 elementos, qualquer um dos dois pode ser pivô.
+
+    <p align="center">
+      pivô<br>
+      [10]
+    </p>
+
+    <p align="right">
+      [30] <- direita
+    </p>
+    
+  - 4º iteração:
     
     `[80,50,70]`
 
@@ -192,10 +206,9 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
       [80,70] <- direita
     </p>
 
-  - 4º iteração:
+  - 5º iteração:
     
-    `[80,70]`<br>
-    Como a matriz possui apenas 2 elementos, qualquer um dos dois pode ser pivô.
+    `[80,70]`
 
     <p align="center">
       pivô<br>
