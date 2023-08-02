@@ -51,9 +51,9 @@ Supondo a seguinte estrutura arr[] = {0,4,6,7,32,8} e quisessemos buscar o eleme
 
 > **Note**
 > Algoritmo de busca, aplicável apenas em **estruturas ordenadas**, que funciona delimitando os elementos a serem consultados na busca, por meio de critérios estabelecidos pelos 3 referenciais que o algoritmo utiliza (low, high, mid).
-> > low = posição 0
-> > high = arr.length - 1
-> > mid = (low + high) / 2
+>> <p>low = posição 0<br>
+>> high = arr.length - 1<br>
+>> mid = (low + high) / 2</p>
 
 Características
 - Algoritmo sofisticado
