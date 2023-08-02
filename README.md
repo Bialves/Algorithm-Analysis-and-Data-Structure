@@ -87,7 +87,7 @@ Características:
   
   - 4º iteração:
 
-    <span style="color:red">[12] [31]</span>   [25]   [8]   [32]   [17]   [40]   [42]
+    <p><span style="color:red">[12] [31]</span>   [25]   [8]   [32]   [17]   [40]   [42]</p>
 
   - 5º iteração:
 
