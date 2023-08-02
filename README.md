@@ -151,11 +151,12 @@ O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de def
   - 1º iteração: alocamos todos os elementos de valor menor que o do nosso pivô a esquerda e os maiores a direita.
 
     <p align="center">
-      [90] <- pivô
+      pivô
+      [90]
     </p>
 
     <p align="letf">
-      [10,80,30,40,50,70]
+     esquerda -> [10,80,30,40,50,70]
     </p>
 
     Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até não ser mais possível particionar.
