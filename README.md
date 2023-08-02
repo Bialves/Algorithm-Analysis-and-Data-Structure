@@ -39,6 +39,10 @@ Repositório para estudo de algoritmos e estruturas de dados.
   <br>
 
   Como não há mais elementos para realizar comparação, é compreendido que o vetor se encontra completamente ordenado.
+
+  ___
+
+  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/b524809e-d237-463c-9932-953b770b0553" width="50" height="50" />
         
 </details>
 
