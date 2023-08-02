@@ -87,7 +87,7 @@ Características:
   
   - 4º iteração:
 
-    $\textcolor{red}{[12] [31]}$   [25]   [8]   [32]   [17]   [40]   [42]
+    <span style="color:red">[12] [31]</span>   [25]   [8]   [32]   [17]   [40]   [42]
 
   - 5º iteração:
 
