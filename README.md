@@ -164,16 +164,18 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
   - 2º iteração:
     
     <p align="center">
-      pivô<br>
-      [90]
-    </p>
-
-    <p align="letf">
-      pivô esq.<br>
+      pivô submatriz esq.<br>
       [40]
-
-      esquerda -> [10,30]   < >   [50,70] <- direita
     </p>
+
+  <div>
+    <p align="letf">
+      esquerda -> [10,30]
+    </p>
+    <p align="right">
+      [50,70] <- direita
+    </p>
+  </div>
     
   - 3º iteração: 
 
