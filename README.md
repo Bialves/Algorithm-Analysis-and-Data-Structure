@@ -18,6 +18,10 @@ Repositório para estudo de algoritmos e estruturas de dados.
 > **Note**
 > Método de busca tradicional, o qual percorre toda uma matriz, visitando cada um de seus n elementos.
 
+Características
+- Lento
+- sla
+
 **Exemplo:**
 
 ```java
@@ -32,6 +36,8 @@ Repositório para estudo de algoritmos e estruturas de dados.
             }
           }
 ```
+
+Supondo a seguinte estrutura arr[] = {0,4,6,7,32,8} e quisessemos buscar o elemento 8 que se encontra ao fim do array, seria necessário percorrer toda a estrutura até chegar ao elemento desejado.
 
 </details>
   
