@@ -10,9 +10,9 @@ Repositório para estudo de algoritmos e estruturas de dados.
 <details>
   <summary markdown="span">Bubble Sort</summary><br>
   <p>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O%20-%20n%C2%B2-8A2BE2">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-F%C3%A1cil-darkgreen">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Lento-darkred">
+    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O%20-%20n%C2%B2-8A2BE2">
+    <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-F%C3%A1cil-darkgreen">
+    <img alt="Lento" src="https://img.shields.io/badge/Lento-darkred">
   </p>
 
 > **Note**
@@ -53,9 +53,9 @@ Características:
 <details>
   <summary markdown="span">Merge Sort</summary><br>
   <p>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Dif%C3%ADcil-darkred">
-    <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
+    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2" >
+    <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Dif%C3%ADcil-darkred" >
+    <img alt="Rápido" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen" >
   </p>
 
 > **Note**
@@ -86,12 +86,20 @@ Características:
   Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
   
   - 4º iteração:
-    
-  $\textcolor{red}{[12] [31]}$   [25]   [8]   [32]   [17]   [40]   [42]
+
+    $\textcolor{red}{[12] [31]}$   [25]   [8]   [32]   [17]   [40]   [42]
 
   - 5º iteração:
-    
-  [12] [31]   $\textcolor{red}{[8]   [25]}$   [32]   [17]   [40]   [42]
+
+    [12] [31]   $\textcolor{red}{[8]   [25]}$   [32]   [17]   [40]   [42]
+
+  - 6º iteração:
+
+    [12] [31]   [8]   [25]   $\textcolor{red}{[17]   [32]}$   [40]   [42]
+
+  - 7º iteração:
+
+    [12] [31]   [8]   [25]   [17]   [32]   $\textcolor{red}{[40]   [42]}$
     
   ___
 
