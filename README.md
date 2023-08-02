@@ -73,21 +73,25 @@ Características:
   
   - 1º iteração: primeiro divida o vetor dado em duas metades, conforme `mid = número de elementos / 2`, ou seja, mid = 8 / 2 = 4.
     
-    {12,31,25,8}   {32,17,40,42}
+    [12,31,25,8]   [32,17,40,42]
     
   - 2º iteração: novamente divida esses dois vetores em metades. Como eles são de tamanho 4, então divida-os em novos vetores de tamanho 2.
 
-    {12,31}   {25,8}   {32,17}   {40,42}
+    [12,31]   [25,8]   [32,17]   [40,42]
 
   - 3º iteração: agora, novamente divida esses vetores para obter o valor atômico que não pode ser mais dividido.
 
-    {12}   {31}   {25}   {8}   {32}   {17}   {40}   {42}
+    [12]   [31]   [25]   [8]   [32]   [17]   [40]   [42]
 
   Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
   
   - 4º iteração:
     
-  $\textcolor{red}{[12] [31]}$   {25}   {8}   {32}   {17}   {40}   {42}
+  $\textcolor{red}{[12] [31]}$   [25]   [8]   [32]   [17]   [40]   [42]
+
+  - 5º iteração:
+    
+  [12] [31]   $\textcolor{red}{[8]   [25]}$   [32]   [17]   [40]   [42]
     
   ___
 
