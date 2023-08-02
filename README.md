@@ -169,13 +169,15 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
     </p>
 
     <p align="letf">
-      pivô<br>
-      [40]
+      <p align="center">
+        pivô esq.<br>
+        [40]
+      </p>
       <p align="left">
         esquerda -> [10,30]
       </p>
       <p align="right">
-        esquerda -> [50,70]
+        [50,70] <- direita
       </p>
     </p>
     
