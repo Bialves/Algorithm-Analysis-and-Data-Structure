@@ -138,6 +138,9 @@ Características:
   - Algoritmo instável (pior caso O(n²))
   - Algoritmo recursivo
 
+A primeira etapa do Quick Sort é a partição. A partição é feita recursivamente em cada lado do pivô depois que o pivô é colocado em sua posição correta e isso finalmente classifica a matriz.
+O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de definir o pivô sempre como o elemento do meio de uma matriz (pivô = número de elementos \ 2).
+  
   Exemplo:
   
   [10,80,30,90,40,50,70]
