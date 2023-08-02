@@ -72,31 +72,28 @@ Características
     high -> elemento 32<br>
     mid = -> elemento 6
 
-    `8 < mid`? Se sim, high atualiza para (mid - 1).
+    `8 < mid`? Se sim, high atualiza para (mid - 1).<br>
     `8 > mid`? Se sim, low atualiza para (mid + 1).
 
 
     Em nosso exemplo, 8 é maior que a referência mid, então a referência low é atualizada. Consequentemente, como delimitamos a área de busca com essa ação, a referência de mid também é atualizada.
 
-    > Atualizações:<br>
-    > estrutura arr[] = {7,8,32}<br>
-    > low = elemento 7<br>
-    > high = elemento 32<br>
-    > mid = (0 + 2) / 2 = 1 -> elemento 8</p>
+> Atualizações:<br>
+> estrutura arr[] = {7,8,32}<br>
+> low = elemento 7<br>
+> high = elemento 32<br>
+> mid = (0 + 2) / 2 = 1 -> elemento 8</p>
     
   - 2º iteração:
 
-    low -> elemento 32<br>
-    high -> elemento 8<br>
-    mid = 
+    low -> elemento 7<br>
+    high -> elemento 32<br>
+    mid -> elemento 8
 
-    `32 < mid`? Se sim, high atualiza para (mid - 1).
-    `32 > mid`? Se sim, low atualiza para (mid + 1).
+    `8 < mid`? Se sim, high atualiza para (mid - 1).<br>
+    `8 > mid`? Se sim, low atualiza para (mid + 1).
 
-    
-  - 3º iteração:
-
-
+    Como não é nenhum dos casos, é identificado que `mid = elemento da busca`, o elemento então é retornado e a pesquisa encerreda!
 </details>
 <br>
 
