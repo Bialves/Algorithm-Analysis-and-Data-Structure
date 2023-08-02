@@ -83,23 +83,33 @@ Características:
 
     `[12]`   `[31]`   `[25]`   `[8]`   `[32]`   `[17]`   `[40]`   `[42]`
 
-  Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
+    Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
   
   - 4º iteração:
 
-    `[12]   [31]`   [25]   [8]   [32]   [17]   [40]   [42]</p>
+    `[12,31]`   [25]   [8]   [32]   [17]   [40]   [42]
 
   - 5º iteração:
 
-    [12] [31]   `[8]   [25]`   [32]   [17]   [40]   [42]
+    [12,31]   `[8,25]`   [32]   [17]   [40]   [42]
 
   - 6º iteração:
 
-    [12] [31]   [8]   [25]   `[17]   [32]`   [40]   [42]
+    [12,31]   [8,25]   `[17,32]`   [40]   [42]
 
   - 7º iteração:
 
-    [12] [31]   [8]   [25]   [17]   [32]   `[40]   [42]`
+    [12,31]   [8,25]   [17,32]   `[40,42]`
+
+    Agora compare vetores com dois valores de dados e mescle-os em uma matriz de valores encontrados em ordem classificada.
+
+  - 8º iteração:
+
+    `[8,12,25,31]`   `[17,32,40,42]`
+
+  - 9º iteração: por fim, há uma fusão final das matrizes.
+    
+    `[8,12,17,25,31,32,40,42]`
     
   ___
 
