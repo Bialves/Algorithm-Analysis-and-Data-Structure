@@ -93,7 +93,7 @@ Características
     `8 < mid`? Se sim, high atualiza para (mid - 1).<br>
     `8 > mid`? Se sim, low atualiza para (mid + 1).
 
-    Como não é nenhum dos casos, é identificado que `mid = elemento da busca`, o elemento então é retornado e a pesquisa encerreda!
+    Como não é nenhum dos casos, é identificado que `mid = elemento da busca`, o elemento então é retornado e a pesquisa encerrada!
 </details>
 <br>
 
