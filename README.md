@@ -83,11 +83,11 @@ Características:
 
     {12}   {31}   {25}   {8}   {32}   {17}   {40}   {42}
 
-  - 4º iteração: agora, combine-os da mesma maneira que foram quebrados.
-
-  Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
-
-  {12}   {31}   {25}   {8}   {32}   {17}   {40}   {42}
+  Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeiro compare o elemento de cada vetor e, em seguida, combine-os em outro vetor em ordem classificada.
+  
+  - 4º iteração:
+    
+  $\textcolor{red}{\textsf{{12} {31}}}$   {25}   {8}   {32}   {17}   {40}   {42}
     
   ___
 
