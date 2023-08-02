@@ -23,7 +23,7 @@ Características:
   - Ordenação crescente e decrescente
   - Algoritmo estável
 
-  Exemplo:
+**Exemplo:**
   
   vetor[] = {2,1,3,5,4}
   
@@ -67,7 +67,7 @@ Características:
   - Algoritmo estável
   - Algoritmo recursivo
 
-  Exemplo:
+**Exemplo:**
   
   [12,31,25,8,32,17,40,42]
   
@@ -142,7 +142,7 @@ A primeira etapa do Quick Sort é a partição. A partição é feita recursivam
 
 O pivô pode ser escolhido de diversos modos, mas aqui usaremos a lógica de definir o pivô sempre como o elemento do meio de uma matriz (pivô = número de elementos \ 2).
   
-  Exemplo:
+**Exemplo:**
   
   [10,80,30,90,40,50,70]
 
