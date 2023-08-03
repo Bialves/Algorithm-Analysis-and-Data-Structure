@@ -57,12 +57,12 @@ Características
 <details>
   <summary markdown="span">Binária</summary><br>
   <p>
-    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2" >
+    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-log_n-8A2BE2" >
     <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
   </p>
 
 > **Note**
-> Algoritmo de busca, aplicável apenas em **estruturas ordenadas**, que funciona delimitando os elementos a serem consultados na busca, por meio de comparações realizadas pelos 3 referenciais que o algoritmo utiliza (low, high, mid).
+> Algoritmo de busca em vetores que segue o paradigma de Divisão e Conquista. Ela parte do pressuposto de que o vetor está ordenado e realiza sucessivas divisões do espaço de busca comparando o elemento buscado (chave) com o elemento no meio do vetor. Se o elemento do meio do vetor for a chave, a busca termina com sucesso. 
 >> <p>low = 0<br>
 >> high = número de elementos<br>
 >> mid = (low + high) / 2
