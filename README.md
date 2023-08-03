@@ -158,6 +158,10 @@ Características:
 
   ___
 
+<p align="center">
+  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/b524809e-d237-463c-9932-953b770b0553" width="380" height="240">
+</p>
+
 ![Bubble-Sort](https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e92bcb33-58ce-4543-8359-6b8856dbf150)
 </details>
 
