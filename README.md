@@ -24,6 +24,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
 
 > **Note**
 > Pesquisa em vetores ou listas de modo sequencial, elemento por elemento, de modo que a função do tempo em relação ao número de elementos é linear, ou seja, cresce proporcionalmente.
+
 Características
 - Algoritmo simples
 - Menos otimizado
