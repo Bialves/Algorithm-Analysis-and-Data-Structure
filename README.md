@@ -135,16 +135,16 @@ Características:
   arr[] = {2,1,3,5,4}
   
   - 1º iteração:
-    `2 > 1 ?` Sim, os mesmos são invertidos, arr[] = {1,2,3,5,4}
+    `2 > 1`? Sim, os mesmos são invertidos, arr[] = {1,2,3,5,4}
 
   - 2º iteração:
-    `2 > 3 ?` Não, estado do array é mantido e o próximo elemento se torna o comparador
+    `2 > 3`? Não, estado do array é mantido e o próximo elemento se torna o comparador
 
   - 3º iteração:
-    `3 > 5 ?` Não, estado do array é mantido e o próximo elemento se torna o comparador
+    `3 > 5`? Não, estado do array é mantido e o próximo elemento se torna o comparador
 
   - 4º iteração:
-    `5 > 4 ?` Sim, os mesmos são invertidos, arr[] = {1,2,3,4,5}
+    `5 > 4`? Sim, os mesmos são invertidos, arr[] = {1,2,3,4,5}
   <br>
 
   Como não há mais elementos para realizar comparação, é compreendido que o array se encontra completamente ordenado.
@@ -362,19 +362,19 @@ Características:
 
     {`12,11`,13,5,6}
 
-    `12 < 11 || 11 < 12 ?` Os mesmos são invertidos, arr[] = {11,12,13,5,6}
+    `12 < 11 || 11 < 12`? Os mesmos são invertidos, arr[] = {11,12,13,5,6}
 
   - 2º iteração: agora, passe para os próximos dois elementos e compare-os
 
     {11,`12,13`,5,6}
 
-    `12 < 13 || 13 < 12 ?` Estado do array é mantido e o próximo elemento se torna o comparador
+    `12 < 13 || 13 < 12`? Estado do array é mantido e o próximo elemento se torna o comparador
 
   - 3º iteração:
 
     {11,12,`13,5`,6}
 
-    `13 < 5 || 5 < 13 ?` Os mesmos são invertidos, arr[] = {11,12,5,13,6}
+    `13 < 5 || 5 < 13`? Os mesmos são invertidos, arr[] = {11,12,5,13,6}
   
     Após a troca, os elementos 12 e 5 não são classificados, portanto, trocam novamente.
     
@@ -398,7 +398,7 @@ Características:
      
     {11,5,12,`13,6`}
 
-    `13 < 6 || 6 < 13 ?` Os mesmos são invertidos, arr[] = {5,11,12,6,13}
+    `13 < 6 || 6 < 13`? Os mesmos são invertidos, arr[] = {5,11,12,6,13}
 
     Agora, 6 é menor que 12, portanto, troque novamente.
 
