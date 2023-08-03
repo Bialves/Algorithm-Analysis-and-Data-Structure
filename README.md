@@ -159,10 +159,8 @@ Características:
   ___
 
 <p align="center">
-  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/b524809e-d237-463c-9932-953b770b0553" width="380" height="240">
+  <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e92bcb33-58ce-4543-8359-6b8856dbf150" width="380" height="240">
 </p>
-
-![Bubble-Sort](https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e92bcb33-58ce-4543-8359-6b8856dbf150)
 </details>
 
 <details>
@@ -230,7 +228,7 @@ Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeir
   ___
 
 <p align="center">
-  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/cc9d3755-829f-4b4f-adc9-e71232155e2b">
+  <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/6237be86-8bbd-44a7-8b19-09d9e970086a" width="380" height="240">
 </p>
         
 </details>
@@ -339,7 +337,7 @@ Agora que não é mais possível realizar partições, se for agrupado novamente
  ___
 
 <p align="center">
-  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/a25b71f0-f93a-4045-b9bd-7b60dc5c77b9">
+  <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/3cecfe12-3c21-4c0d-8d7b-e915e2e83afb" width="380" height="240">
 </p>
   
 </details>
@@ -423,7 +421,7 @@ Finalmente a estrutura está ordenada.
   ___
 
   <p align="center">
-    <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/1e6cf6a8-9ef3-43a8-bf25-32a92a69bb7f">
+    <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/b977d88b-06c4-4a12-960f-f5a84e59f097" width="380" height="240">
   </p>
 
 </details>
