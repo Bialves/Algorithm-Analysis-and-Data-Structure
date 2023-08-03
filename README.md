@@ -294,7 +294,7 @@ Agora, basta realizar o mesmo passo a passo com as submatrizes formadas, até n�
   - 3º iteração:
     
     `[10,30]`<br>
-    Como a matriz possui apenas 2 elementos, qualquer um dos dois pode ser pivô.
+    Como a submatriz possui apenas 2 elementos, qualquer um dos dois pode ser pivô.
 
     <p align="center">
       pivô<br>
