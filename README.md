@@ -432,21 +432,27 @@ Características:
   > São objetos de recipientes que contém um número fixo de valores de um único tipo. O comprimento de um array é estabelecido quando criado, sendo que após a criação o seu comprimento fica fixo.
 
   #### Notação O
-  - Inserção:<p>
+  - Inserção:
+    <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2"> OU 
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
 
-   - Remoção: <p>
+    > Inserções no fim do vetor possuem O(1), no início e no meio são O(n)
+
+   - Remoção:
+    <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2"> OU 
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
 
-   - Pesquisa:<p>
+   - Pesquisa:
+    <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
 
-   - Acesso:<p>
+   - Acesso:
+    <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
     </p>
     
