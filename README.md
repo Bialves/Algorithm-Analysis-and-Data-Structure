@@ -6,6 +6,12 @@
 Repositório para estudo de algoritmos e estruturas de dados.
 <br>
 
+## Notação
+- Big O (O()) descreve o limite superior da complexidade.
+- Omega (Ω()) descreve o limite inferior da complexidade.
+- Theta (Θ()) descreve o limite exato da complexidade.
+- Little O (o()) descreve o limite superior excluindo o limite exato.
+
 ## Algoritmos
 ### Pesquisa
 <details>
