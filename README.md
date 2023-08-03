@@ -25,18 +25,6 @@ Características
 
 **Exemplo:**
 
-```java
-         public void pesquisarNumero(int x) {
-            for(i = 0; i < arr.length; i++) {
-              // Verifica se o elemento que está sendo procurado está no array.
-              if (numeros[i] == x) {
-                // Se encontrou o elemento, imprime ele na tela e para a pesquisa.
-                System.out.println("Encontrou o número " + x);
-                break;
-              }
-            }
-          }
-```
 
 Supondo a seguinte estrutura arr[] = {0,4,6,7,32,8} e quisessemos buscar o elemento 8 que se encontra ao fim do array, seria necessário percorrer toda a estrutura até chegar ao elemento desejado.
 
@@ -50,10 +38,12 @@ Supondo a seguinte estrutura arr[] = {0,4,6,7,32,8} e quisessemos buscar o eleme
   </p>
 
 > **Note**
-> Algoritmo de busca, aplicável apenas em **estruturas ordenadas**, que funciona delimitando os elementos a serem consultados na busca, por meio de critérios estabelecidos pelos 3 referenciais que o algoritmo utiliza (low, high, mid).
+> Algoritmo de busca, aplicável apenas em **estruturas ordenadas**, que funciona delimitando os elementos a serem consultados na busca, por meio de comparações realizadas pelos 3 referenciais que o algoritmo utiliza (low, high, mid).
 >> <p>low = 0<br>
 >> high = número de elementos<br>
->> mid = (low + high) / 2</p>
+>> mid = (low + high) / 2
+>>
+>> Os referênciais operam com íncices, logo, se há o array = {1,2,3,4,5} e low = 0, low é igual ao índice 0 que contém o elemento de valor 1.</p>
 
 Características
 - Algoritmo sofisticado
@@ -93,7 +83,7 @@ Características
     `8 < mid`? Se sim, high atualiza para (mid - 1).<br>
     `8 > mid`? Se sim, low atualiza para (mid + 1).
 
-    Como não é nenhum dos casos, é identificado que `mid = elemento da busca`, o elemento então é retornado e a pesquisa encerrada!
+    Como não é nenhum dos casos, é identificado que `mid == elemento da busca`, então mid é retornado e a pesquisa encerrada!
 </details>
 <br>
 
