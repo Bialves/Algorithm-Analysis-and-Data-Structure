@@ -503,6 +503,10 @@ Características:
   <summary markdown="span">Dinâmicas</summary>
   <details>
     <summary markdown="span">ArrayList</summary><br>
+
+  > **Note**
+  > Classe Java implementada usando a interface List. Java ArrayList, como o nome sugere, fornece a funcionalidade de uma matriz dinâmica onde o tamanho não é fixo como uma matriz comum (array). Também como parte da estrutura de coleção, ele tem muitos recursos não disponíveis com arrays - métodos específicos.
+
   </details>
   
   <details>
