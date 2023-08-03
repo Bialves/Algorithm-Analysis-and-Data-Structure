@@ -1,4 +1,4 @@
-# Algorithm-Analysis
+# Algorithm-Analysis-and-Data-Structure
 <div>
   <img alt="Static Badge" src="https://img.shields.io/badge/LICEN%C3%87A-MIT-black">
   <img alt="Static Badge" src="https://img.shields.io/badge/STATUS-Em_Desenvolvimento-yellow">
