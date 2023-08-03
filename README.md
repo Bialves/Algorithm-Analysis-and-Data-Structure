@@ -159,7 +159,7 @@ Características:
 <details>
   <summary markdown="span">Merge Sort</summary><br>
   <p>
-    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2" >
+    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n_log_n-8A2BE2" >
     <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Dif%C3%ADcil-darkred" >
     <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
   </p>
@@ -231,7 +231,7 @@ Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeir
 <details>
   <summary markdown="span">Quick Sort</summary><br>
   <p>
-    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n(log_n)-8A2BE2" >
+    <img alt="Notação O" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n_log_n-8A2BE2" >
     <img alt="Implementação" src="https://img.shields.io/badge/Implementa%C3%A7%C3%A3o-Dif%C3%ADcil-darkred" >
     <img alt="Static Badge" src="https://img.shields.io/badge/R%C3%A1pido-darkgreen">
   </p>
@@ -446,15 +446,21 @@ Características:
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
 
+    > Remoções no fim do vetor possuem O(1), no início e no meio são O(n)
+
    - Pesquisa:
     <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
 
+    > Remoções no fim do vetor possuem O(1), no início e no meio são O(n)
+
    - Acesso:
     <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
     </p>
+
+    > Remoções no fim do vetor possuem O(1), no início e no meio são O(n)
     
   </details>
 </details>
