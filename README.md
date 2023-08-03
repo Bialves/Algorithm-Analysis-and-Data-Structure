@@ -453,7 +453,7 @@ Características:
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
   
-      > Pesquisa é considerado O(n), porque no pior caso (matriz ordenada) é necessário percorrer n elementos do vetor até encontrar o desejado.
+      > Pesquisa é considerado O(n), porque no pior caso (matriz ordenada) é necessário percorrer n elementos de um matriz até encontrar o desejado.
 
    - Acesso:
     <p>
