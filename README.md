@@ -548,8 +548,6 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
   <br>
   <br>
   <br>
-  <br>
-  <br>
   
   #### Notação O
   - Inserção:
