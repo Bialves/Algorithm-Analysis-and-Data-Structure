@@ -159,7 +159,7 @@ Características:
   ___
 
 <p align="center">
-  <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e92bcb33-58ce-4543-8359-6b8856dbf150" width="380" height="240">
+  <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/232e3368-5e81-4f67-a38b-2ed6fa420a1b" width="380" height="240">
 </p>
 </details>
 
