@@ -474,7 +474,7 @@ Características:
    <summary markdown="span">Pilha</summary><br>
 
   > **Note**
-  > Estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado – o último item que foi inserido na estrutura (item do topo). Esse item pode ser lido ou removido. Aplica a regra LIFO – Last-In, First-Out.
+  > Estrutura de dados básica que fornece a lógica conhecida por LIFO - Last In, First out. Isso significa que o último dado adicionado a estrutura será o primeiro removido dela e por isso foca a entrada e saída de dados na mesma ponta do vetor/lista.
 
   #### Notação O
   - Inserção:
@@ -491,12 +491,10 @@ Características:
     
       > Remoções possuem O(1), afinal, ocorrem apenas no topo
 
-   - Acesso (método top):
+   - Acesso:
     <p>
-      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
-
-      > Acessos possuem O(1), afinal, ocorrem apenas no topo
   </details>
   
 </details>
@@ -535,18 +533,48 @@ Características:
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
   
-      > Pesquisa é considerado O(n), porque no pior caso (matriz ordenada) é necessário percorrer n elementos de um matriz até encontrar o desejado.
+      > Pesquisa é considerado O(n), porque no pior caso é necessário percorrer n elementos de um lista até encontrar o desejado
 
    - Acesso:
     <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
     
-      > Acessos são O(n), pois ao contrário de matrizes, é necessário percorrer toda a lista para chegar ao elemento desejado.
+      > Acessos são O(n), pois ao contrário de matrizes, é necessário percorrer toda a lista para chegar ao elemento desejado
   </details>
 
   <details>
    <summary markdown="span">Fila</summary><br>
+
+  > **Note**
+  > Estrutura de dados com um controle definido pela lógica FIFO - First In, Last Out. Esse controle quer dizer que os dados contidos nela só podem entrar apenas por uma ponta e deverão sair pela outra. Com isso, garante-se que o primeiro dado que entrou será o primeiro a sair da fila.
+
+  #### Notação O
+  - Inserção:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
+    </p>
+    
+      > Inserções possuem O(1), pois são realizadas na extremidade de uma lista
+
+   - Remoção:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
+    </p>
+    
+      > Remoções possuem O(1), pois são realizadas na extremidade de uma lista
+
+   - Pesquisa:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
+    </p>
+  
+      > Pesquisa é considerado O(n), porque no pior caso é necessário percorrer n elementos de um lista até encontrar o desejado
+
+   - Acesso:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
+    </p>
   </details>
 
   <details>
