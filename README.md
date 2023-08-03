@@ -11,7 +11,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
 <details>
   <summary markdown="span">Sequencial</summary><br>
   <p>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n%C2%B2-8A2BE2">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Nota%C3%A7%C3%A3o_O-n-8A2BE2">
     <img alt="Lento" src="https://img.shields.io/badge/Lento-darkred">
   </p>
 
