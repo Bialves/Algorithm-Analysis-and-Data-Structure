@@ -229,7 +229,7 @@ Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeir
   ___
 
 <p align="center">
-  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/cc9d3755-829f-4b4f-adc9-e71232155e2b" width="380" height="210">
+  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/cc9d3755-829f-4b4f-adc9-e71232155e2b">
 </p>
         
 </details>
@@ -338,7 +338,7 @@ Agora que não é mais possível realizar partições, se for agrupado novamente
  ___
 
 <p align="center">
-  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/a25b71f0-f93a-4045-b9bd-7b60dc5c77b9" width="380" height="210">
+  <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/a25b71f0-f93a-4045-b9bd-7b60dc5c77b9">
 </p>
   
 </details>
@@ -417,12 +417,12 @@ Características:
 
     arr[] = {5,6,11,12,13}
 
-    Finalmente a estrutura está ordenada.
+Finalmente a estrutura está ordenada.
 
   ___
 
   <p align="center">
-    <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/1e6cf6a8-9ef3-43a8-bf25-32a92a69bb7f" width="380" height="210">
+    <img src="https://github.com/Bialves/Algorithm-Analysis/assets/77895233/1e6cf6a8-9ef3-43a8-bf25-32a92a69bb7f">
   </p>
 
 </details>
