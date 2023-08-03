@@ -437,26 +437,30 @@ Características:
       <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2"> OU 
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
-    > Inserções no fim da matriz possuem O(1), no início e no meio são O(n)
+    
+  > Inserções no fim da matriz possuem O(1), no início e no meio são O(n)
 
    - Remoção:
     <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2"> OU 
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
-    > Remoções no fim da matriz possuem O(1), no início e no meio são O(n)
+    
+  > Remoções no fim da matriz possuem O(1), no início e no meio são O(n)
 
    - Pesquisa:
     <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
     </p>
-    > Pesquisa é considerado O(n), porque no pior caso (matriz ordenada) é necessário percorrer n elementos do vetor até encontrar o desejado.
+  
+  > Pesquisa é considerado O(n), porque no pior caso (matriz ordenada) é necessário percorrer n elementos do vetor até encontrar o desejado.
 
    - Acesso:
     <p>
       <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
     </p>
-    > Acessos são O(1), pois matrizes alocam espaços físicos na memória e guardam referências para os mesmos, então o seu acesso é rápido em comparação com demais estruturas.
+    
+  > Acessos são O(1), pois matrizes alocam espaços físicos na memória e guardam referências para os mesmos, então o seu acesso é rápido em comparação com demais estruturas.
     
   </details>
 </details>
