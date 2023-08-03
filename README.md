@@ -218,9 +218,7 @@ Agora, combine-os da mesma maneira que foram quebrados. Na combinação, primeir
 
     [12,31]   [8,25]   [17,32]   `[40,42]`
 
-    Agora compare as matrizes com dois valores de dados e mescle-os em uma matriz de valores encontrados em ordem classificada.
-
-  - 8º iteração:
+  - 8º iteração: agora compare as matrizes com dois valores de dados e mescle-os em uma matriz de valores encontrados em ordem classificada.
 
     `[8,12,25,31]`   `[17,32,40,42]`
 
