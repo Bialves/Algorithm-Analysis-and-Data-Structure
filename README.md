@@ -461,8 +461,37 @@ Características:
     </p>
     
       > Acessos são O(1), pois matrizes alocam espaços físicos na memória e guardam referências para os mesmos, então o seu acesso é rápido em comparação com demais estruturas.
-    
   </details>
+
+  <details>
+   <summary markdown="span">Pilha</summary><br>
+
+  > **Note**
+  > Estrutura de dados que serve como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado – o último item que foi inserido na estrutura (item do topo). Esse item pode ser lido ou removido. Aplica a regra LIFO – Last-In, First-Out.
+
+  #### Notação O
+  - Inserção:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
+    </p>
+    
+      > Inserções possuem O(1), afinal, ocorrem apenas no topo
+
+   - Remoção:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
+    </p>
+    
+      > Remoções possuem O(1), afinal, ocorrem apenas no topo
+
+   - Acesso (método top):
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2">
+    </p>
+
+      > Acessos possuem O(1), afinal, ocorrem apenas no topo
+  </details>
+  
 </details>
 
 <details>
@@ -473,9 +502,47 @@ Características:
   
   <details>
     <summary markdown="span">LinkedList</summary><br>
+
+  > **Note**
+  > Consiste em nodos onde cada nodo contém dados e uma referência ao próximo nodo da lista. Ao contrário de uma matriz, os dados não são armazenados em um bloco contíguo de memória e não têm um tamanho fixo. Em vez disso, ele consiste em vários blocos de memória em endereços diferentes.
+
+  #### Notação O
+  - Inserção:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2"> OU 
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
+    </p>
+    
+      > Inserções no início da lista possuem O(1), no fim e no meio são O(n)
+
+   - Remoção:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(1)-8A2BE2"> OU 
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
+    </p>
+    
+      > Remoções no início da lista possuem O(1), no fim e no meio são O(n)
+
+   - Pesquisa:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
+    </p>
+  
+      > Pesquisa é considerado O(n), porque no pior caso (matriz ordenada) é necessário percorrer n elementos de um matriz até encontrar o desejado.
+
+   - Acesso:
+    <p>
+      <img alt="Static Badge" src="https://img.shields.io/badge/O(n)-8A2BE2">
+    </p>
+    
+      > Acessos são O(n), pois ao contrário de matrizes, é necessário percorrer toda a lista para chegar ao elemento desejado.
   </details>
 
- <details>
+  <details>
+   <summary markdown="span">Fila</summary><br>
+  </details>
+
+  <details>
    <summary markdown="span">Tree</summary><br>
   </details>
 </details>
