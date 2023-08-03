@@ -49,7 +49,7 @@ Características
 - Algoritmo sofisticado
 - Otimizado
 - Mais eficiente
-- Estruturas ordenadas
+- Requer estruturas ordenadas
 
 **Exemplo:**
 
