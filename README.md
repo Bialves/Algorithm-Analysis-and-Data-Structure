@@ -25,9 +25,33 @@ Características
 
 **Exemplo:**
 
+  arr[] = {0,4,6,7,8,32}<br>
+  elemento da busca: 8<br>
 
-Supondo a seguinte estrutura arr[] = {0,4,6,7,32,8} e quisessemos buscar o elemento 8 que se encontra ao fim do array, seria necessário percorrer toda a estrutura até chegar ao elemento desejado.
+  - 1º iteração:
 
+    arr[] = {`0`,4,6,7,8,32}<br>
+    `0 == 8`? Não, passa para o próximo elemento.
+    
+  - 2º iteração:
+
+    arr[] = {0,`4`,6,7,8,32}<br>
+    `4 == 8`? Não, passa para o próximo elemento.
+    
+  - 3º iteração:
+
+    arr[] = {0,4,`6`,7,8,32}<br>
+    `6 == 8`? Não, passa para o próximo elemento.
+    
+  - 4º iteração:
+
+    arr[] = {0,4,6,`7`,8,32}<br>
+    `7 == 8`? Não, passa para o próximo elemento.
+    
+  - 5º iteração:
+
+    arr[] = {0,4,6,7,`8`,32}
+    `8 == 8`? Sim, interrompe a iteração e retorna o elemento.
 </details>
   
 <details>
