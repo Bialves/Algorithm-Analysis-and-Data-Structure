@@ -50,7 +50,7 @@ Características
     
   - 5º iteração:
 
-    arr[] = {0,4,6,7,`8`,32}
+    arr[] = {0,4,6,7,`8`,32}<br>
     `8 == 8`? Sim, interrompe a iteração e retorna o elemento.
 </details>
   
