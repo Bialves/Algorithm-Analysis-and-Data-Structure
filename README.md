@@ -428,6 +428,17 @@ Finalmente a estrutura está ordenada.
 <br>
 
 ## Estrutura de Dados
+Em computação, normalmente utilizamos os dados de forma conjunta. A forma como estes dados serão agregados e organizados depende muito de como serão utilizados e processados, levando-se em consideração, por exemplo, a eficiência para buscas, o volume dos dados trabalhados, a complexidade da implementação e a forma como os dados se relacionam. Estas diversas formas de organização são as chamadas estruturas de dados.
+
+### TAD
+**Tipos Abstratos de Dados**, ou TADs são modelos matemáticos de estruturas de dados que definem:
+- o tipo de dados a ser armazenado;
+- as operações possíveis sobre estes dados;
+- o tipo de dados das operações.
+  
+Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não define como.
+
+### Estruturas
 <details>
   <summary markdown="span">Estáticas</summary>
   <details>
