@@ -70,8 +70,8 @@ Características
 >> Os referênciais operam com íncices, logo, se há o array = {1,2,3,4,5} e low = 0, low é igual ao índice 0 que contém o elemento de valor 1.</p>
 
 Características
-- Algoritmo sofisticado
-- Otimizado
+- Algoritmo mais sofisticado
+- Melhor caso O(1)
 - Mais eficiente
 - Requer estruturas ordenadas
 
