@@ -518,6 +518,9 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
   > **Note**
   > Classe Java implementada usando a interface List. Java ArrayList, como o nome sugere, fornece a funcionalidade de uma matriz dinâmica onde o tamanho não é fixo como uma matriz comum (array). Também como parte da estrutura de coleção, ele tem muitos recursos não disponíveis com arrays - métodos específicos.
 
+
+  #### Notação O
+  Semelhante ao Array.
   </details>
   
   <details>
@@ -602,6 +605,7 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
 
   <details>
    <summary markdown="span">Tree</summary><br>
+    > 🚧 Em desenvolvimento...
   </details>
 </details>
 <br>
