@@ -528,7 +528,8 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
 
 <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/d96198bd-8093-4ef8-98d1-8287ce0aae80" width="430px" height="130" align="right">
 
-<img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e367cb87-9b8d-4fc8-91e0-2e304850ab27" width="350" height="110" align="left"><br>
+<img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e367cb87-9b8d-4fc8-91e0-2e304850ab27" width="350" height="120" align="left"><br>
+<br>
 <br>
 <br>
 <br>
