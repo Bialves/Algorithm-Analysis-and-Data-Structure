@@ -526,6 +526,7 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
   > **Note**
   > Consiste em nodos onde cada nodo contém dados e uma referência ao próximo nodo da lista. Ao contrário de uma matriz, os dados não são armazenados em um bloco contíguo de memória e não têm um tamanho fixo. Em vez disso, ele consiste em vários blocos de memória em endereços diferentes.
 
+<p>
 <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/d96198bd-8093-4ef8-98d1-8287ce0aae80" min-width="430px" max-width="430px" width="430px" height="130" align="right"><br>
 
   - Inserção no meio:
@@ -544,6 +545,7 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
     3. Remove as referências de aux:<br>
        aux.next.prev = ant;<br>
        ant.next = aux.next;
+  </p>
     <br>
     <br>
 
