@@ -539,9 +539,11 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
        aux.next = n;
     
   - Remoção do meio:
-    em desenvolvimento...
-    <br>
-    <br>
+    1. Cria 2 referências (ant e aux)
+    2. Percorre a lista até a posição do elemento (aux e ant na posição anterior)
+    3. Remove as referências de aux:<br>
+       aux.next.prev = ant;<br>
+       ant.next = aux.next;
     <br>
     <br>
 
