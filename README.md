@@ -526,38 +526,9 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
   > **Note**
   > Consiste em nodos onde cada nodo contém dados e uma referência ao próximo nodo da lista. Ao contrário de uma matriz, os dados não são armazenados em um bloco contíguo de memória e não têm um tamanho fixo. Em vez disso, ele consiste em vários blocos de memória em endereços diferentes.
 
-<div>
 <img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/d96198bd-8093-4ef8-98d1-8287ce0aae80" min-width="430px" max-width="430px" width="430px" height="130" align="right"><br>
-  
-  - Inserção no meio:
-    1. Cria o novo Nodo
-    2. Percorre a lista até a posição anterior da desejada (Nodo aux)
-    3. Prende o novo Nodo na lista, usando a referência:<br>
-       n.next = aux.next;<br>
-       n.prev = aux;
-    5. Atualiza as referências:<br>
-       aux.next.prev = n;<br>
-       aux.next = n;
-    
-  - Remoção do meio:
-    1. Cria 2 referências (ant e aux)
-    2. Percorre a lista até a posição do elemento (aux e ant na posição anterior)
-    3. Remove as referências de aux:<br>
-       aux.next.prev = ant;<br>
-       ant.next = aux.next;
-</div>
-    <br>
-    <br>
 
-<img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e367cb87-9b8d-4fc8-91e0-2e304850ab27" min-width="350px" max-width="350px" width="350" height="110" align="right"><br>
-
-  - Inserção:
-     em desenvolvimento...
-    
-  - Remoção:
-    em desenvolvimento...
-    <br>
-    <br>
+<img src="https://github.com/Bialves/Algorithm-Analysis-and-Data-Structure/assets/77895233/e367cb87-9b8d-4fc8-91e0-2e304850ab27" min-width="350px" max-width="350px" width="350" height="110" align="left"><br>
     
   #### Notação O
   - Inserção:
