@@ -605,7 +605,7 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
 
   <details>
    <summary markdown="span">Tree</summary><br>
-    > 🚧 Em desenvolvimento...
+> 🚧 Em desenvolvimento...
   </details>
 </details>
 <br>
