@@ -2,7 +2,7 @@ package classificacao;
 
 public class MergeSort {
   // Mescla duas submatrizes de arr (L e M)
-  public void merge(int[] arr, int p, int q, int r) {
+  private void merge(int[] arr, int p, int q, int r) {
 
     // Cria L ← arr[p..q] e M ← arr[q+1..r]
     int n1 = q - p + 1;
