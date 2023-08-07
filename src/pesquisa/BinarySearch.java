@@ -13,13 +13,23 @@ public class BinarySearch {
     int mid = (low + high) / 2;
     // Chamada recursiva
     if (arr[mid] < element) {
+      /* Se mid é menor que o elemento da busca,
+       * high atualiza (delimita área de busca)
+       */
       return search(arr,element,mid+1,high);
     } 
     else if (arr[mid] > element) {
+      /* Se mid é maior que o elemento da busca,
+       * low atualiza (delimita área de busca)
+       */
       return search(arr,element,low,mid-1);
     } 
-    else {
-      return mid; // Encontrou o elemento no array
+    else { 
+      /* Se mid não é maior e nem manor que o,
+       * elemento da busca, é porque mid é igual
+       * ao elemento
+       */
+      return arr[mid];
     }
   } 
 }
