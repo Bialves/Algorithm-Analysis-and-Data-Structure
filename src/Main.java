@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 import classificacao.BubbleSort;
 import classificacao.InsertionSort;
+import classificacao.MergeSort;
 
 public class Main {
   public static void main(String[] args) throws Exception {
@@ -20,6 +21,15 @@ public class Main {
     insert.sort(array2);
     System.out.print("[INSERTION SORT] Sorted array: ");
     System.out.println(Arrays.toString(array2));
+
+    // ========================================================
+
+    MergeSort merge = new MergeSort();
+
+    int array3[] = {11,7,9,10,5,6,2};
+    merge.sort(array3,0,array3.length - 1);
+    System.out.print("[MERGE SORT] Sorted array: ");
+    System.out.println(Arrays.toString(array3));
 
   }
 }
