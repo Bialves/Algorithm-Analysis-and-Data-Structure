@@ -23,7 +23,7 @@ public class BubbleSort {
 
 			/* Caso seja percorrido todo o segundo loop e não ocorra trocas
 			* a iteração do primeiro loop é encerrada (sinalização de que
-		   * não há trocas a serem realizadas no array - o mesmo está odernado).
+		  * não há trocas a serem realizadas no array - o mesmo está odernado).
 			*/
 			if (!flag) {
 				break;      

@@ -11,7 +11,7 @@ public class InsertionSort {
 			* Em ordem decrescente, altere key<array[j] para key>array[j].
 			*/
 			while (j >= 0 && key < array[j]) {
-				array[j + 1] = array[j];
+			  array[j + 1] = array[j];
 				--j;
 			}
 
