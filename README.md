@@ -400,7 +400,7 @@ Características:
 
   - 4º iteração:
      
-    {11,5,12,`13,6`}
+    {5,11,12,`13,6`}
 
     `13 < 6 || 6 < 13`? Os mesmos são invertidos, arr[] = {5,11,12,6,13}
 
