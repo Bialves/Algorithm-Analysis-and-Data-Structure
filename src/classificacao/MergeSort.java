@@ -57,16 +57,21 @@ public class MergeSort {
   }
 
   // Divide o array em duas submatrizes, a serem classificadas e mescladas
-  public void sort(int arr[], int l, int r) {
-    if (l < r) {
-      // m é o ponto onde o array é dividido em duas submatrizes
-      int m = (l + r) / 2;
+  private void sort(int arr[], int low, int high) {
+    if (low < high) {
+      // mid é o ponto onde o array é dividido em duas submatrizes
+      int mid = (low + high) / 2;
       // Chamada recursiva
-      sort(arr, l, m);
-      sort(arr, m + 1, r);
+      sort(arr, low, mid);
+      sort(arr, mid + 1, high);
 
       // Mescla as submatrizes para classificar
-      merge(arr, l, m, r);
+      merge(arr, low, mid, high);
     }
+  }
+
+  public void sort(int[] array) {
+    // Sobrecarga
+    sort(array,0,array.length - 1);
   }
 }

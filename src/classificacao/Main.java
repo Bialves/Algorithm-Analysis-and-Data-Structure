@@ -22,16 +22,15 @@ public class Main {
     // ========================================================
 
     MergeSort merge = new MergeSort();
-    merge.sort(array,0,array.length - 1);
+    merge.sort(array);
     System.out.print("[MERGE SORT] Sorted array: ");
     System.out.println(Arrays.toString(array));
 
     // ========================================================
 
     QuickSort quick = new QuickSort();
-    quick.sort(array,0,array.length - 1);
+    quick.sort(array);
     System.out.print("[QUICK SORT] Sorted array: ");
     System.out.println(Arrays.toString(array));
-
   }
 }

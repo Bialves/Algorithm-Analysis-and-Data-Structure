@@ -30,7 +30,7 @@ public class QuickSort {
     return (i + 1);
   }
 
-  public void sort(int array[], int low, int high) {
+  private void sort(int[] array, int low, int high) {
     if (low < high) {
       /* Localiza o elemento pivô, tal que elementos menores que o
        * pivô estão à esquerda e elementos maiores que pivô estão à direita
@@ -43,5 +43,10 @@ public class QuickSort {
       // Chamada recursiva à direita do pivô
       sort(array, pi + 1, high);
     }
+  }
+
+  public void sort(int[] array) {
+    // Sobrecarga
+    sort(array,0,array.length - 1);
   }
 }
