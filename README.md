@@ -6,7 +6,10 @@
 Repositório para estudo de algoritmos e estruturas de dados.
 <br>
 
-## Notação
+## Complexity analysis
+<p align="justify">A complexidade de um algoritmo é analisada em termos de **tempo** e **espaço**. Normalmente, o algoritmo terá um desempenho diferente com base no processador, disco, memória e outros parâmetros de hardware, e por essas questões é utilizada a contagem de operações para medir a velocidade de um algoritmo. Sendo o algoritmo um agrupamento de etapas para se executar uma tarefa, o tempo que leva para um algoritmo ser executado é baseado no número de passos.</p>
+
+### Notação
 - Big O (O()) descreve o **limite superior** da complexidade.
 - Omega (Ω()) descreve o **limite inferior** da complexidade.
 - Theta (Θ()) descreve o **limite exato** da complexidade.
