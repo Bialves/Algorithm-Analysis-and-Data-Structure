@@ -614,7 +614,7 @@ Um TAD define **o que** se pode fazer com uma estrutura de dados, mas não defin
 </details>
 <br>
 
-> **Atention**
+> **Attention**
 > Em casos de dúvida, se sinta a vontade para entrar em contato através e-mail: b.alves03@edu.pucrs.br
 >
 > Meu retorno não será imediato, mas tentarei atender à todos!
