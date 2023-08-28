@@ -7,7 +7,7 @@ Repositório para estudo de algoritmos e estruturas de dados.
 <br>
 
 ## Análise de Complexidade
-<p align="justify">A complexidade de um algoritmo é analisada em termos de <strong>tempo</strong> e <strong>espaço</strong>. Normalmente, o algoritmo terá um desempenho diferente com base no processador, disco, memória e outros parâmetros de hardware, e por essas questões é utilizada a contagem de operações para medir a velocidade de um algoritmo. Sendo o algoritmo um agrupamento de etapas para se executar uma tarefa, o tempo que leva para um algoritmo ser executado é baseado no número de passos.</p>
+<p align="justify">A complexidade de um algoritmo é analisada em termos de <strong>tempo</strong> e <strong>espaço</strong>. Normalmente, o algoritmo terá um desempenho diferente com base no processador, disco, memória e outros parâmetros de hardware, e por essas questões é utilizada a <i>contagem de operações</i> para medir a velocidade de um algoritmo. Sendo o algoritmo um agrupamento de etapas para se executar uma tarefa, o tempo que leva para um algoritmo ser executado é baseado no número de passos.</p>
 
 ### Notação
 - Big O (O()) descreve o **limite superior** da complexidade.
